@@ -1,0 +1,58 @@
+body {
+    margin-top: 200px;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to left, grey, rgb(241, 240, 240));
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.content {
+    text-align: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+input {
+    padding: 10px 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-size: 30px;
+}
+
+.DeleteTask {
+    background: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.EditTask {
+    background: rgb(9, 127, 44);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
